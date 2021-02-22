@@ -203,6 +203,11 @@ footer #nondisclaimer .social .fa-instagram {
 }
 
 /*activities.html START*/
+
+.green {
+    background: #9ED304;
+}
+
 table {
     width: 80% !important;
     margin: 0 auto;

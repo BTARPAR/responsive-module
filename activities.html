@@ -62,7 +62,7 @@
                 to the table below:
             </p>
         </div>
-        <table class="table">
+        <table class="table" data-toggle="modal" data-target="#exampleModal">
             <caption class="text-center">Activities at the Cliffs</caption>
             <thead>
             <tr class="text-center">
@@ -113,6 +113,30 @@
         </table>
     </main>
     <!--End Of Main Content-->
+    <!--START OF MODAL-->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                            My Selected activities to enquire:
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="displaySelected">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Back to activity</button>
+                    <button type="button" class="btn btn-primary">Get Info</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END OF MODAL-->
     <!--Section Content Begin-->
     <section>
         <ul id="partners">
@@ -168,5 +192,8 @@
 <!--External Javascript Code for Generating Partners Logo START-->
 <script type="text/javascript" src="js/site_scripts.js"></script>
 <!--External Javascript Code for Generating Partners Logo END-->
+<!--External Javascript Code for TABLE Logo START-->
+<script type="text/javascript" src="js/activity.js"></script>
+<!--External Javascript Code for TABLE END-->
 </body>
 </html>
